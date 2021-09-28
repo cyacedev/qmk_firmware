@@ -35,9 +35,9 @@ bool encoder_update_user(uint8_t index, bool clockwise) {
     switch (index) {
         case _LEFT:
             if (clockwise) {
-                tap_code(KC_DOWN);
+                tap_code(KC_MS_WH_UP);
             } else {
-                tap_code(KC_UP);
+                tap_code(KC_MS_WH_DOWN);
             }
             break;
         case _MIDDLE:
@@ -49,9 +49,9 @@ bool encoder_update_user(uint8_t index, bool clockwise) {
             break;
         case _RIGHT:
             if (clockwise) {
-                tap_code(KC_PGDN);
+                tap_code(KC_MS_WH_RIGHT);
             } else {
-                tap_code(KC_PGUP);
+                tap_code(KC_MS_WH_LEFT);
             }
             break;
     }
