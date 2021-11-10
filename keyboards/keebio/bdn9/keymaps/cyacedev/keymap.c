@@ -28,7 +28,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         | Mute Spotify          | Mute all          | RGB Mode             |
         | Discord Mute          | Discord Deafen    | _blank_              |
      */
-    [0] = LAYOUT(KC_MEDIA_PREV_TRACK, KC_MEDIA_PLAY_PAUSE, KC_MEDIA_NEXT_TRACK, KC_F14, KC_MUTE, RGB_MOD, KC_F15, KC_F16, ),
+    [0] = LAYOUT(KC_MEDIA_PREV_TRACK, KC_MEDIA_PLAY_PAUSE, KC_MEDIA_NEXT_TRACK, KC_F14, KC_MUTE, RGB_MOD, KC_F15, KC_F16, KC_F17 ),
 };
 
 bool encoder_update_user(uint8_t index, bool clockwise) {
